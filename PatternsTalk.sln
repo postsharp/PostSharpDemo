@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyPropertyChangedDemo", "NotifyPropertyChangedDemo\NotifyPropertyChangedDemo.csproj", "{B10B8456-75F7-4D68-9775-CC87517B07B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureUnitTest", "ArchitectureUnitTest\ArchitectureUnitTest.csproj", "{9035974A-13D7-44A6-B41D-4BF7F9206692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterSynchronizedDemo", "ReaderWriterSynchronizedDemo\ReaderWriterSynchronizedDemo.csproj", "{F9ED4319-B954-456D-B69A-783FE5703BF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9035974A-13D7-44A6-B41D-4BF7F9206692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9035974A-13D7-44A6-B41D-4BF7F9206692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9035974A-13D7-44A6-B41D-4BF7F9206692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9035974A-13D7-44A6-B41D-4BF7F9206692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9ED4319-B954-456D-B69A-783FE5703BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9ED4319-B954-456D-B69A-783FE5703BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9ED4319-B954-456D-B69A-783FE5703BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9ED4319-B954-456D-B69A-783FE5703BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
