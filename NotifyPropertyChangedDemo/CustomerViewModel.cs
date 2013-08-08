@@ -1,8 +1,5 @@
-﻿using PostSharp.Patterns.Model;
-
-namespace NotifyPropertyChangedDemo
+﻿namespace NotifyPropertyChangedDemo
 {
-    [NotifyPropertyChanged]
     public class CustomerViewModel
     {
         public CustomerViewModel()
