@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="My Rule Set" Description=" " ToolsVersion="12.0">
+  <RuleHintPaths>
+    <Path>..\FxCopExample.Rules\bin\Debug</Path>
+  </RuleHintPaths>
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="PAT001" Action="Warning" />
+  </Rules>
+</RuleSet>
