@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rules FriendlyName="Design Patterns">
+  <Rule TypeName="Singleton" Category="Patterns" CheckId="PAT001">
+    <Name>Singleton should be implemented according to guidelines.</Name>
+    <Description></Description>
+    <Url></Url>
+    <Resolution>See our guidelines</Resolution>
+    <MessageLevel Certainty="95">Warning</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+    <Email />
+    <Owner />
+  </Rule>
+</Rules>
