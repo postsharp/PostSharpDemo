@@ -1,9 +1,12 @@
 ﻿using System;
+using PostSharp.Patterns.Threading;
 
 namespace ReaderWriterSynchronizedDemo
 {
+    [ReaderWriterSynchronized]
     class SynchronizedOrder : IOrder
     {
+        [Writer]
         public void Set(int amount, int discount)
         {
             if (amount < discount) throw new InvalidOperationException();
