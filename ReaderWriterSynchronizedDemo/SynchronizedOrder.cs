@@ -1,7 +1,9 @@
 ﻿using System;
+using PostSharp.Patterns.Model;
 
 namespace ReaderWriterSynchronizedDemo
 {
+    [NotifyPropertyChanged]
     class SynchronizedOrder : IOrder
     {
         public void Set(int amount, int discount)
