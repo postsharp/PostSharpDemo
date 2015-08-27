@@ -13,7 +13,7 @@
         {
             get
             {
-                if (this.Customer == null) return "null";
+                if (this.Customer == null) return "(No Data)";
 
                 return string.Format("{0} {1} from {2}", 
                     this.Customer.FirstName, 
