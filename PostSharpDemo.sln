@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.WithoutPostSharp", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.WithPostSharp", "MyApp.WithPostSharp\MyApp.WithPostSharp.csproj", "{B10B8456-75F7-4D68-9775-CC87517B07B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAspectDemo", "CustomAspectDemo\CustomAspectDemo.csproj", "{092B9356-FF0A-4250-B000-81044151F1D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B10B8456-75F7-4D68-9775-CC87517B07B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092B9356-FF0A-4250-B000-81044151F1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092B9356-FF0A-4250-B000-81044151F1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092B9356-FF0A-4250-B000-81044151F1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092B9356-FF0A-4250-B000-81044151F1D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
