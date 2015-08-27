@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using PostSharp.Patterns.Collections;
+using System.Collections.ObjectModel;
 using System.Windows;
 
 namespace MyApp
@@ -17,7 +18,7 @@ namespace MyApp
                                                                          {
                                                                              FirstName = "Jan",
                                                                              LastName = "Noval",
-                                                                             Addresses = new ObservableCollection<AddressModel>()
+                                                                             Addresses = new AdvisableCollection<AddressModel>()
                                                                                                        {
                                                                                                            new AddressModel
                                                                                                                {

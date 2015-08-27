@@ -47,6 +47,10 @@
       <HintPath>..\packages\PostSharp.Patterns.Model.4.2.8-alpha\lib\net40\PostSharp.Patterns.Model.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PostSharp.Patterns.Model.Controls, Version=4.2.8.0, Culture=neutral, PublicKeyToken=e7f631e6ce13f078, processorArchitecture=MSIL">
+      <HintPath>..\packages\PostSharp.Patterns.Model.Controls.4.2.8-alpha\lib\net40\PostSharp.Patterns.Model.Controls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />

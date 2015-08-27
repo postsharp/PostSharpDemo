@@ -2,6 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:MyApp"
+        xmlns:u="clr-namespace:PostSharp.Patterns.Model.Controls;assembly=PostSharp.Patterns.Model.Controls"
         Title="Contact Form" Height="292.584" Width="352.753" 
         >
     <Window.DataContext>
@@ -11,6 +12,8 @@
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
                 <Button>Save</Button>
+                <u:UndoButton/>
+                <u:RedoButton/>
             </ToolBar>
         </ToolBarTray>
         <Grid>
