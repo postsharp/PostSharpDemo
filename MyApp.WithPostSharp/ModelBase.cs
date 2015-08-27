@@ -1,6 +1,6 @@
 ﻿using PostSharp.Patterns.Model;
 
-namespace NotifyPropertyChangedDemo
+namespace MyApp
 {
     [NotifyPropertyChanged]
     public abstract class ModelBase

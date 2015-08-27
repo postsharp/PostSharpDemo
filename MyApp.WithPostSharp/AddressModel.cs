@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace NotifyPropertyChangedDemo
+namespace MyApp
 {
     public class AddressModel : ModelBase
     {

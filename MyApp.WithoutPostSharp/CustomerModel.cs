@@ -1,6 +1,7 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 
-namespace NotifyPropertyChangedBadExample
+namespace MyApp
 {
     public class CustomerModel : ModelBase
     {
@@ -17,6 +18,9 @@ namespace NotifyPropertyChangedBadExample
             get { return _firstName; }
             set
             {
+                if (value == null)
+                    throw new ArgumentNullException("value");
+
                 _firstName = value;
                 OnPropertyChanged("FirstName");
             }
@@ -27,6 +31,9 @@ namespace NotifyPropertyChangedBadExample
             get { return _lastName; }
             set
             {
+                if (value == null)
+                    throw new ArgumentNullException("value");
+
                 _lastName = value;
                 OnPropertyChanged("LastName");
             }

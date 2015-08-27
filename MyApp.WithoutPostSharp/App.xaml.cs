@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace NotifyPropertyChangedBadExample
+namespace MyApp
 {
     /// <summary>
     /// Interaction logic for App.xaml

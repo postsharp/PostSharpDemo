@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace NotifyPropertyChangedBadExample
+namespace MyApp
 {
     public class CustomerViewModel : INotifyPropertyChanged
     {

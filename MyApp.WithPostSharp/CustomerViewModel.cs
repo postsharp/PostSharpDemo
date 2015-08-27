@@ -1,5 +1,6 @@
 ﻿using PostSharp.Patterns.Model;
-namespace NotifyPropertyChangedDemo
+
+namespace MyApp
 {
     [NotifyPropertyChanged]
     public class CustomerViewModel
@@ -15,7 +16,7 @@ namespace NotifyPropertyChangedDemo
         {
             get
             {
-                if (this.Customer == null) return "null";
+                if (this.Customer == null) return "(No Data)";
 
                 return string.Format("{0} {1} from {2}", 
                     this.Customer.FirstName, 
