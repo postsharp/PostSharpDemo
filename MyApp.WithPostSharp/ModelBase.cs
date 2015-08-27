@@ -1,5 +1,5 @@
 ﻿
-namespace NotifyPropertyChangedDemo
+namespace MyApp
 {
     public abstract class ModelBase
     {

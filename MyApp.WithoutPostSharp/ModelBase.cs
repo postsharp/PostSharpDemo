@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace NotifyPropertyChangedBadExample
+namespace MyApp
 {
     public abstract class ModelBase : INotifyPropertyChanged
     {

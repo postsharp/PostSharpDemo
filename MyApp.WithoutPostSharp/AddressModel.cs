@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace NotifyPropertyChangedBadExample
+namespace MyApp
 {
     public class AddressModel : ModelBase
     {
@@ -58,21 +58,21 @@ namespace NotifyPropertyChangedBadExample
             get
             {
                 StringBuilder stringBuilder = new StringBuilder();
-                if (Line1 != null) stringBuilder.Append(Line1);
-                if (Line2 != null)
+                if (this.Line1 != null) stringBuilder.Append(this.Line1);
+                if (this.Line2 != null)
                 {
                     if (stringBuilder.Length > 0) stringBuilder.Append("; ");
-                    stringBuilder.Append(Line2);
+                    stringBuilder.Append(this.Line2);
                 }
-                if (Town != null)
+                if (this.Town != null)
                 {
                     if (stringBuilder.Length > 0) stringBuilder.Append("; ");
-                    stringBuilder.Append(Town);
+                    stringBuilder.Append(this.Town);
                 }
-                if (Country != null)
+                if (this.Country != null)
                 {
                     if (stringBuilder.Length > 0) stringBuilder.Append("; ");
-                    stringBuilder.Append(Country);
+                    stringBuilder.Append(this.Country);
                 }
 
                 return stringBuilder.ToString();

@@ -1,4 +1,4 @@
-﻿namespace NotifyPropertyChangedDemo
+﻿namespace MyApp
 {
     public class CustomerViewModel
     {

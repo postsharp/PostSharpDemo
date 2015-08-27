@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace NotifyPropertyChangedDemo
+namespace MyApp
 {
     public class CustomerModel: ModelBase
     {
