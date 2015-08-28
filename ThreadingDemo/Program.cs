@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using PostSharp.Patterns.Threading;
 
 namespace ThreadingDemo
 {
@@ -42,12 +43,14 @@ namespace ThreadingDemo
         }
     }
 
+    [ReaderWriterSynchronized]
     class Counter
     {
         int value;
 
         public int Value {  get { return this.value; } }
 
+        [Writer]
         public void Increment()
         {
             this.value++;
