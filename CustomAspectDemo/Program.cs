@@ -2,10 +2,6 @@
 using PostSharp.Aspects;
 using PostSharp.Serialization;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using PostSharp.Reflection;
 
 namespace CustomAspectDemo
