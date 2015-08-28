@@ -23,7 +23,7 @@ namespace CustomAspectDemo
 
     [PSerializable]
     [LinesOfCodeAvoided(5)]
-    class PersistInRegistryAttribute : LocationInterceptionAspect
+    public sealed class PersistInRegistryAttribute : LocationInterceptionAspect
     {
         bool isFetched;
         string keyName;
