@@ -18,9 +18,6 @@ namespace MyApp
             get { return _firstName; }
             set
             {
-                if (value == null)
-                    throw new ArgumentNullException("value");
-
                 _firstName = value;
                 OnPropertyChanged("FirstName");
             }
@@ -31,9 +28,6 @@ namespace MyApp
             get { return _lastName; }
             set
             {
-                if (value == null)
-                    throw new ArgumentNullException("value");
-
                 _lastName = value;
                 OnPropertyChanged("LastName");
             }

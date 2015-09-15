@@ -10,9 +10,9 @@ namespace CustomAspectDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Count);
+            Console.WriteLine("Count={0}", Count);
             Count = Count + 1;
-            Console.WriteLine(Count);
+            Console.WriteLine("Count={0}", Count);
         }
 
         [PersistInRegistry]

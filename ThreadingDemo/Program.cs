@@ -39,7 +39,7 @@ namespace ThreadingDemo
 
             int expectedValue = n * threadCount;
             Console.WriteLine("Counter.Value={0}. Expected value is {1}. Difference is {2}%", counter.Value, expectedValue, 100.0 * (expectedValue - counter.Value) / (double) expectedValue );
-
+            Console.Read();
         }
     }
 

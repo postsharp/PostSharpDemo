@@ -7,10 +7,7 @@ namespace MyApp
 {
     public class CustomerModel: ModelBase
     {
-        [Required]
         public string FirstName { get; set; }
-
-        [Required]
         public string LastName { get; set; }
 
         public string Phone { get; set; }
